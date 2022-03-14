@@ -152,4 +152,162 @@
         color: #555555;
     }
 
+    main .ntf {
+        display: flex;
+        overflow: auto;
+    }
+
+    .ntf::-webkit-scrollbar {
+        display: none;
+    }
+
+    main .nft1-image {
+        position: relative;
+        background-color: #EEEEEE;
+        border-radius: 1rem;
+    }
+
+    main .ntf .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .nft1-image img:first-child {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .about .right-side {
+        text-align: right;
+    }
+
+    .about .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+
+
+    main .nft2-image {
+        position: absolute;
+        background-color: #EEEEEE;
+    }
+
+    main .nft2-image .about {
+        position: relative;
+        background-color: #EEEEEE;
+    }
+
+    main .nft3-image {
+        position: absolute;
+        background-color: #EEEEEE;
+    }
+
+    main .nft3-image .about {
+        position: relative;
+        background-color: #EEEEEE;
+    }
+
+    main .nft4-image {
+        position: absolute;
+        background-color: #EEEEEE;
+    }
+
+    main .nft4-image .about {
+        position: relative;
+        background-color: #EEEEEE;
+    }
+
+    main .footer-upsell {
+        display: flex;
+        margin-top: 3rem;
+    }
+
+    main .footer-upsell:after { 
+        content: '';
+        background: url('assets/upsell-footer-image.svg') top 99px right -30px no-repeat;
+        background-size: 9rem;
+        padding: 212px 186px;
+        position: absolute;
+        right: 11.5rem; 
+        transform: translateX(50%); 
+        border-bottom: 2px solid #c5bebe;
+        border-top: 2px solid #c5bebe;
+    }
+
+    main .footer-upsell .hero2 {
+        padding-top: 3rem;
+    }
+
+    main .footer-upsell .hero2 b {
+        color: #FF3998;
+        margin: 0;
+        padding: 0rem 9rem 0.5rem 0rem;
+    }
+
+    main .footer-upsell .hero2 p {
+        padding: 0rem 9rem 0.5rem 0rem;
+        border-top: 2px solid #c5bebe;
+        color: #555555;
+    }
+
+    main .footer-upsell .hero2 h1 {
+        font-size: 2.5rem;
+        margin-right: 6rem;
+    }
+
+    main .footer-upsell button.button2 {
+        border-radius: 100rem;
+        font-size: 1rem;
+        padding:1rem 2rem;
+        color: black;
+        border: solid 4px transparent;
+        background-image: linear-gradient(rgba(255,57,57, 0), rgba(255,129,57, 0), rgb(57,255,160, 0)), linear-gradient(101deg, #FF3939, #FF8139, #39FFA0);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+    }  
+
+    main .footer-upsell .button2 a {
+        text-decoration: none;
+        color: black;
+    }
 }
