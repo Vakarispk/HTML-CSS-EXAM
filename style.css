@@ -1,6 +1,6 @@
 @media screen and (max-width: 786px) {
     body {
-        margin: 3rem;
+        margin: 2rem;
     }
 
     header .header-mobile {
@@ -23,5 +23,68 @@
 
     header nav {
         display: none;
+    }
+
+    main .hero {
+        display: flex;
+    }
+
+    main .hero:after { 
+        content: '';
+        background: url('assets/graphic.svg') top -10px right -170px no-repeat;
+        background-size: 22rem;
+        padding: 171px 190px;
+        position: absolute;
+        right: 11.5rem; 
+        transform: translateX(50%); 
+    }
+
+    main .hero .hero-text {
+        padding-top: 4rem;
+    }
+
+    main .hero-text b {
+        color: #FF3998;
+    }
+
+    main .hero-text p {
+        padding: 0rem 9rem 0.5rem 0rem;
+    }
+
+    main .hero-text h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    main button.button {
+        border-radius: 100rem;
+        font-size: 1rem;
+        padding:1rem 2rem;
+        color: black;
+        border: solid 4px transparent;
+        background-image: linear-gradient(rgba(255,57,57, 0), rgba(255,129,57, 0), rgb(57,255,160, 0)), linear-gradient(101deg, #FF3939, #FF8139, #39FFA0);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+    }  
+
+    main .button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    main .upsell {
+        background: url('assets/background.svg') right / cover;
+        margin: -2rem;
+        margin-top: 3rem;
+    }
+
+    main .upsell h2 {
+        padding: 4rem 6rem 0rem 1rem;
+    }
+
+    main .upsell p {
+        padding: 0rem 6rem 2rem 1rem;
     }
 }
