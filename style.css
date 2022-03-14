@@ -269,8 +269,8 @@
         position: absolute;
         right: 11.5rem; 
         transform: translateX(50%); 
-        border-bottom: 2px solid #c5bebe;
-        border-top: 2px solid #c5bebe;
+        /* border-bottom: 2px solid #c5bebe;
+        border-top: 2px solid #c5bebe; */
     }
 
     main .footer-upsell .hero2 {
@@ -285,7 +285,7 @@
 
     main .footer-upsell .hero2 p {
         padding: 0rem 9rem 0.5rem 0rem;
-        border-top: 2px solid #c5bebe;
+        /* border-top: 2px solid #c5bebe; */
         color: #555555;
     }
 
@@ -417,4 +417,117 @@
     footer .bottom p:last-child {
         display: none;
     }
+}
+@media screen and (min-width: 787px) {
+    body {
+        margin: 3rem;
+    }
+
+    header .header-mobile {
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        padding: 0;
+    }
+
+    header .header-mobile button {
+        display: none;
+    }
+
+    .header-mobile nav a{
+        text-decoration: none;
+        color: black;
+        margin-left: 2rem;
+    }
+
+    .header-mobile nav a:last-child{
+        color: #FF3998;
+    }
+
+    main .hero {
+        display: flex;
+        margin-top: 5rem 0;
+    }
+
+    main .hero:after { 
+        content: '';
+        background: url('assets/graphic.svg') top 0px right -6px no-repeat;
+        background-size: 29rem;
+        padding: 241px 251px;
+        position: absolute;
+        right: 22.5rem; 
+        transform: translateX(50%); 
+    }
+
+    main .hero .hero-text {
+        padding-top: 4rem;
+    }
+
+    main .hero-text b {
+        color: #FF3998;
+    }
+
+    main .hero-text p {
+        padding: 0rem 32rem 0.5rem 0rem;
+        color: #555555;
+    }
+
+    main .hero-text h1 {
+        font-size: 4.5rem;
+        font-size: bold;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    main button.button {
+        border-radius: 100rem;
+        font-size: 1rem;
+        padding:1rem 2rem;
+        color: black;
+        border: solid 4px transparent;
+        background-image: linear-gradient(rgba(255,57,57, 0), rgba(255,129,57, 0), rgb(57,255,160, 0)), linear-gradient(101deg, #FF3939, #FF8139, #39FFA0);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+    }  
+
+    main .button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .upsell {
+        background: url('assets/background.svg') right / cover;
+        margin: -1rem;
+        margin-top: 10rem;
+        border-radius: 1rem;
+    }
+
+    main .upsell h2 {
+        padding: 7rem 6rem 0rem 2rem;
+    }
+
+    .upsell p {
+        padding: 0rem 6rem 2rem 2rem;
+    }
+
+    main .press {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7rem;
+    }
+
+    main .showcase {
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+    }
+
+    .showcase p {
+        margin-top: 2rem;
+    }
+
+    .showcase p a {
+    color: black;
+    }
+
 }
