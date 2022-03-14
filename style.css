@@ -161,99 +161,257 @@
         display: none;
     }
 
+    main .ntf {
+        display: flex;
+        justify-content: space-between;
+    }
+
     main .nft1-image {
         position: relative;
         background-color: #EEEEEE;
         border-radius: 1rem;
     }
 
-    main .ntf .about {
+    main .ntf .nft1-image .about {
         display: flex;
         justify-content: space-between;
         padding: 0.5rem 1rem;
     }
 
-    .nft1-image img:first-child {
-        width: 15rem;
+    main .ntf .nft1-image img:first-child {
+        width: 16rem;
         height: 15rem;
     }
 
-    .about .right-side {
+    main .ntf .nft1-image .about .right-side {
         text-align: right;
     }
 
-    .about .left-side b {
+    main .ntf .nft1-image .about .left-side b {
         color: #FF8139;
         font-size: 0.6rem;
     }
 
-    .left-side h3 {
+    main .ntf .nft1-image .left-side h3 {
         font-size: 1.2rem;
         margin-top: 0.5rem;
         margin-bottom: 0rem;
     }
 
-    .left-side p {
+    main .ntf .nft1-image .left-side p {
         margin-top: 0.4rem;
         color: #555555;
     }
 
-    .right-side b {
+    main .ntf .nft1-image .right-side b {
         font-size: 0.6rem;
         color: #555555; 
     }
 
-    .right-side h3 {
+    main .ntf .nft1-image .right-side h3 {
         margin-top: 0.5rem;
         margin-bottom: 0rem;
     }
 
-    .right-side p {
+    main .ntf .nft1-image .right-side p {
         margin-top: 0.4rem;
         color: #555555;
     }
 
-    .right-side .ethimg {
+    main .ntf .nft1-image .right-side .ethimg {
         display: flex;
         justify-content: space-between;
     }
 
-    .right-side .ethimg img {
+    main .ntf .nft1-image .right-side .ethimg img {
         width: 1.5rem;
         height: 1.5rem;
     }
 
-
-
-
-    main .nft2-image {
-        position: absolute;
-        background-color: #EEEEEE;
-    }
-
-    main .nft2-image .about {
+    main .ntf .nft2-image {
         position: relative;
         background-color: #EEEEEE;
+        border-radius: 1rem;
     }
 
-    main .nft3-image {
-        position: absolute;
-        background-color: #EEEEEE;
+    main .ntf .nft2-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
     }
 
-    main .nft3-image .about {
+    main .ntf .nft2-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft2-image .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft2-image .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft2-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft2-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft2-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft2-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft2-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft2-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft2-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    main .ntf .nft3-image {
         position: relative;
         background-color: #EEEEEE;
+        border-radius: 1rem;
     }
 
-    main .nft4-image {
-        position: absolute;
-        background-color: #EEEEEE;
+    main .ntf .nft3-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
     }
 
-    main .nft4-image .about {
+    main .ntf .nft3-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft3-image .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft3-image .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft3-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft3-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft3-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft3-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft3-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft3-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft3-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    main .ntf .nft4-image {
         position: relative;
         background-color: #EEEEEE;
+        border-radius: 1rem;
+    }
+
+    main .ntf .nft4-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    main .ntf .nft4-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft4-image .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft4-image .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft4-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft4-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft4-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft4-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft4-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft4-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft4-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     main .footer-upsell {
@@ -269,8 +427,8 @@
         position: absolute;
         right: 11.5rem; 
         transform: translateX(50%); 
-        /* border-bottom: 2px solid #c5bebe;
-        border-top: 2px solid #c5bebe; */
+        border-bottom: 2px solid #c5bebe;
+        border-top: 2px solid #c5bebe;
     }
 
     main .footer-upsell .hero2 {
@@ -285,7 +443,7 @@
 
     main .footer-upsell .hero2 p {
         padding: 0rem 9rem 0.5rem 0rem;
-        /* border-top: 2px solid #c5bebe; */
+        border-top: 2px solid #c5bebe;
         color: #555555;
     }
 
@@ -316,7 +474,7 @@
     }
 
     footer .footer-left {
-        margin: 3rem 0rem 3rem 0rem;
+        margin: 3rem 0rem;
     }
 
     footer .footer-left p {
@@ -364,14 +522,14 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 2rem;
-        margin-right: 5rem;
+        margin-right: 4rem;
     }
 
     footer .footer-right .contact-social {
         display: flex;
         justify-content: space-between;
         margin-bottom: 2rem;
-        margin-right: 5rem;
+        margin-right: 4rem;
     }
 
     footer .footer-right .about-ntf .about b {
@@ -528,6 +686,417 @@
 
     .showcase p a {
     color: black;
+    }
+
+    main .ntf {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .nft1-image {
+        position: relative;
+        background-color: #EEEEEE;
+        border-radius: 1rem;
+    }
+
+    main .ntf .nft1-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    main .ntf .nft1-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft1-image .about .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft1-image .about .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft1-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft1-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft1-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft1-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft1-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft1-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft1-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    main .ntf .nft2-image {
+        position: relative;
+        background-color: #EEEEEE;
+        border-radius: 1rem;
+    }
+
+    main .ntf .nft2-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    main .ntf .nft2-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft2-image .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft2-image .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft2-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft2-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft2-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft2-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft2-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft2-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft2-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    main .ntf .nft3-image {
+        position: relative;
+        background-color: #EEEEEE;
+        border-radius: 1rem;
+    }
+
+    main .ntf .nft3-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    main .ntf .nft3-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft3-image .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft3-image .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft3-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft3-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft3-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft3-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft3-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft3-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft3-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    main .ntf .nft4-image {
+        position: relative;
+        background-color: #EEEEEE;
+        border-radius: 1rem;
+    }
+
+    main .ntf .nft4-image .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    main .ntf .nft4-image img:first-child {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    main .ntf .nft4-image .right-side {
+        text-align: right;
+    }
+
+    main .ntf .nft4-image .left-side b {
+        color: #FF8139;
+        font-size: 0.6rem;
+    }
+
+    main .ntf .nft4-image .left-side h3 {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft4-image .left-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft4-image .right-side b {
+        font-size: 0.6rem;
+        color: #555555; 
+    }
+
+    main .ntf .nft4-image .right-side h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    main .ntf .nft4-image .right-side p {
+        margin-top: 0.4rem;
+        color: #555555;
+    }
+
+    main .ntf .nft4-image .right-side .ethimg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .ntf .nft4-image .right-side .ethimg img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    main .footer-upsell {
+        display: flex;
+        margin-top: 6rem;
+    }
+
+    main .footer-upsell:after { 
+        content: '';
+        background: url('assets/upsell-footer-image.svg') top 41px right 10px no-repeat;
+        background-size: 10rem;
+        padding: 318px 162px;
+        position: absolute;
+        right: 27.5rem; 
+        transform: translateX(50%); 
+    }
+
+    main .footer-upsell .hero2 {
+        padding-top: 4rem;
+    }
+
+    main .hero2 b {
+        color: #FF3998;
+    }
+
+    main .hero2 p {
+        padding: 0rem 32rem 0.5rem 0rem;
+        color: #555555;
+    }
+
+    main .hero2 h1 {
+        font-size: 4.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    main .footer-upsell .hero2 button.button2 {
+        border-radius: 100rem;
+        font-size: 1rem;
+        padding:1rem 2rem;
+        color: black;
+        border: solid 4px transparent;
+        background-image: linear-gradient(rgba(255,57,57, 0), rgba(255,129,57, 0), rgb(57,255,160, 0)), linear-gradient(101deg, #FF3939, #FF8139, #39FFA0);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+    } 
+
+    main .button2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    footer .regulations {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15rem;
+    }
+
+    footer .footer-left {
+        margin: 3rem 0rem 3rem 0rem;
+    }
+
+    footer .footer-left p {
+        color: #555555;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    footer .footer-left .media-icon img {
+        margin-right: 0.5rem;
+    }
+
+    footer .footer-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin: 3rem 0rem 3rem 0rem;
+
+    }
+
+    footer .footer-right .about-ntf {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10rem;
+    }
+
+    footer .footer-right .contact-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .footer-right a {
+        text-decoration: none;
+        color: #555555;
+    }
+
+    footer .footer-right .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-right: 10rem;
+
+    }
+
+    footer .footer-right .nft{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-right .contact{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10rem;
+    }
+
+    footer .footer-right .social{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-right .about-ntf .about b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .about-ntf .about a {
+        margin-bottom: 0.5rem;
+    }
+
+    footer .footer-right .about-ntf .nft b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .about-ntf .nft a {
+        margin-bottom: 0.5rem;
+    }
+
+    footer .footer-right .contact-social .contact b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .contact-social .contact a {
+        margin-bottom: 0.5rem;
+    }
+
+    footer .footer-right .contact-social .social b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .contact-social .social a {
+        margin-bottom: 0.5rem;
+    }
+    
+    footer .bottom {
+        display: flex;
+        justify-content: space-between;
     }
 
 }
