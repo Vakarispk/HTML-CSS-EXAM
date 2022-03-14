@@ -310,4 +310,111 @@
         text-decoration: none;
         color: black;
     }
+
+    footer .regulations {
+        margin-top: 5rem;
+    }
+
+    footer .footer-left {
+        margin: 3rem 0rem 3rem 0rem;
+    }
+
+    footer .footer-left p {
+        color: #555555;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    footer .footer-left .media-icon img {
+        margin-right: 0.5rem;
+    }
+
+    footer .footer-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    footer .footer-right a {
+        text-decoration: none;
+        color: #555555;
+    }
+
+    footer .footer-right .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-right .nft{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-right .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-right .social{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-right .about-ntf {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        margin-right: 5rem;
+    }
+
+    footer .footer-right .contact-social {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        margin-right: 5rem;
+    }
+
+    footer .footer-right .about-ntf .about b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .about-ntf .about a {
+        margin-bottom: 0.5rem;
+        color: #999999;
+    }
+
+    footer .footer-right .about-ntf .nft b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .about-ntf .nft a {
+        margin-bottom: 0.5rem;
+        color: #999999;
+    }
+
+    footer .footer-right .contact-social .contact b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .contact-social .contact a {
+        margin-bottom: 0.5rem;
+        color: #999999;
+    }
+
+    footer .footer-right .contact-social .social b {
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-right .contact-social .social a {
+        margin-bottom: 0.5rem;
+        color: #999999;
+    }
+
+    footer .bottom p:first-child {
+        color: #999999;
+    }
+
+    footer .bottom p:last-child {
+        display: none;
+    }
 }
